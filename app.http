@@ -1,0 +1,26 @@
+POST http://localhost:3000/notes 
+Content-Type: application/json 
+
+{
+    "title": "Meeting Notes",
+    "description": "Discussed project milestones and deadlines.",
+    "category": "Work"
+}
+
+### 
+
+GET http://localhost:3000/notes 
+#### 
+
+PUT http://localhost:3000/notes/1 
+Content-Type: application/json 
+
+{
+    "title": "Updated Meeting Notes",
+    "description": "Updated project milestones and deadlines.",
+    "category": "Work"
+}
+#### 
+
+DELETE http://localhost:3000/notes/1 
+###
